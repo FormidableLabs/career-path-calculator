@@ -1,0 +1,107 @@
+{
+  "tierOne": {
+    "teamSkills": [
+    "Completes well-defined tasks with guidance.", "Proactively asks for work when they've completed assigned tasks, or identifies and confirms what their next task should be.", "Proactively asks teammates for help or guidance when they're blocked on a task or something isn't clear.", "Communicates respectfully with, and receives feedback gracefully from, client stakeholders, team members, and Formidable coworkers of all disciplines.", "Provides regular status updates on their work and availability."
+    ],
+    "craft": {
+      "design": [
+        "Well we're going to need something here!"
+      ],
+      "engineering": [ 
+      "Knows how to use a Code Editor and Linux or Unix terminal, npm.", "Understands how to use branches, git, and open pull requests.",
+"Write unit tests that can validate functions and values.",
+"Know fundamental SQL; SELECT, CREATE, DELETE.",
+"Know how a Node app can fetch and update entities from a database.",
+"How the web works; client and server communication, CRUD operations such as GET and POST requests",
+"Know enough of a framework (eg Express) to create a functional endpoint that can handle queries, params, and a JSON response.",
+"Concepts around JavaScript including functions, modules, installing and using node modules, variables, async, and control flow.",
+"How to apply common CSS properties to HTML markup; for example colors, fonts, sizing, margins."
+
+      ]
+    }
+  },
+  "tierTwo": {
+    "teamSkills": [
+    "Completes well-defined tasks with guidance.", "Proactively asks for work when they've completed assigned tasks, or identifies and confirms what their next task should be.", "Proactively asks teammates for help or guidance when they're blocked on a task or something isn't clear.", "Communicates respectfully with, and receives feedback gracefully from, client stakeholders, team members, and Formidable coworkers of all disciplines.", "Provides regular status updates on their work and availability."
+    ],
+    "craft": {
+      "design": [
+        "Well we're going to need something here!"
+      ],
+      "engineering": [ 
+      "Knows how to use a Code Editor and Linux or Unix terminal, npm.", "Understands how to use branches, git, and open pull requests.",
+"Write unit tests that can validate functions and values.",
+"Know fundamental SQL; SELECT, CREATE, DELETE.",
+"Know how a Node app can fetch and update entities from a database.",
+"How the web works; client and server communication, CRUD operations such as GET and POST requests",
+"Know enough of a framework (eg Express) to create a functional endpoint that can handle queries, params, and a JSON response.",
+"Concepts around JavaScript including functions, modules, installing and using node modules, variables, async, and control flow.",
+"How to apply common CSS properties to HTML markup; for example colors, fonts, sizing, margins."
+
+      ]
+    }
+  },
+  "tierThree": {
+    "teamSkills": [
+    "Completes well-defined tasks with guidance.", "Proactively asks for work when they've completed assigned tasks, or identifies and confirms what their next task should be.", "Proactively asks teammates for help or guidance when they're blocked on a task or something isn't clear.", "Communicates respectfully with, and receives feedback gracefully from, client stakeholders, team members, and Formidable coworkers of all disciplines.", "Provides regular status updates on their work and availability."
+    ],
+    "craft": {
+      "design": [
+        "Well we're going to need something here!"
+      ],
+      "engineering": [ 
+      "Knows how to use a Code Editor and Linux or Unix terminal, npm.", "Understands how to use branches, git, and open pull requests.",
+"Write unit tests that can validate functions and values.",
+"Know fundamental SQL; SELECT, CREATE, DELETE.",
+"Know how a Node app can fetch and update entities from a database.",
+"How the web works; client and server communication, CRUD operations such as GET and POST requests",
+"Know enough of a framework (eg Express) to create a functional endpoint that can handle queries, params, and a JSON response.",
+"Concepts around JavaScript including functions, modules, installing and using node modules, variables, async, and control flow.",
+"How to apply common CSS properties to HTML markup; for example colors, fonts, sizing, margins."
+
+      ]
+    }
+  },
+  "tierFour": {
+    "teamSkills": [
+    "Completes well-defined tasks with guidance.", "Proactively asks for work when they've completed assigned tasks, or identifies and confirms what their next task should be.", "Proactively asks teammates for help or guidance when they're blocked on a task or something isn't clear.", "Communicates respectfully with, and receives feedback gracefully from, client stakeholders, team members, and Formidable coworkers of all disciplines.", "Provides regular status updates on their work and availability."
+    ],
+    "craft": {
+      "design": [
+        "Well we're going to need something here!"
+      ],
+      "engineering": [ 
+      "Knows how to use a Code Editor and Linux or Unix terminal, npm.", "Understands how to use branches, git, and open pull requests.",
+"Write unit tests that can validate functions and values.",
+"Know fundamental SQL; SELECT, CREATE, DELETE.",
+"Know how a Node app can fetch and update entities from a database.",
+"How the web works; client and server communication, CRUD operations such as GET and POST requests",
+"Know enough of a framework (eg Express) to create a functional endpoint that can handle queries, params, and a JSON response.",
+"Concepts around JavaScript including functions, modules, installing and using node modules, variables, async, and control flow.",
+"How to apply common CSS properties to HTML markup; for example colors, fonts, sizing, margins."
+
+      ]
+    }
+  },
+  "tierFive": {
+    "teamSkills": [
+    "Completes well-defined tasks with guidance.", "Proactively asks for work when they've completed assigned tasks, or identifies and confirms what their next task should be.", "Proactively asks teammates for help or guidance when they're blocked on a task or something isn't clear.", "Communicates respectfully with, and receives feedback gracefully from, client stakeholders, team members, and Formidable coworkers of all disciplines.", "Provides regular status updates on their work and availability."
+    ],
+    "craft": {
+      "design": [
+        "Well we're going to need something here!"
+      ],
+      "engineering": [ 
+      "Knows how to use a Code Editor and Linux or Unix terminal, npm.", "Understands how to use branches, git, and open pull requests.",
+"Write unit tests that can validate functions and values.",
+"Know fundamental SQL; SELECT, CREATE, DELETE.",
+"Know how a Node app can fetch and update entities from a database.",
+"How the web works; client and server communication, CRUD operations such as GET and POST requests",
+"Know enough of a framework (eg Express) to create a functional endpoint that can handle queries, params, and a JSON response.",
+"Concepts around JavaScript including functions, modules, installing and using node modules, variables, async, and control flow.",
+"How to apply common CSS properties to HTML markup; for example colors, fonts, sizing, margins."
+
+      ]
+    }
+  }
+}
