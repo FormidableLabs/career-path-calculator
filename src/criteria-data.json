@@ -1,193 +1,193 @@
 {
-    "tierOne": {
-        "teamSkills": [
-            "Completes well-defined tasks with guidance.",
-            "Proactively asks for work when they've completed assigned tasks, or identifies and confirms what their next task should be.",
-            "Proactively asks teammates for help or guidance when they're blocked on a task or something isn't clear.",
-            "Communicates respectfully with, and receives feedback gracefully from, client stakeholders, team members, and Formidable coworkers of all disciplines.",
-            "Provides regular status updates on their work and availability."
-        ],
-        "craft": {
-            "design": ["Well we're going to need something here!"],
-            "engineering": [
-                "Knows how to use a Code Editor and Linux or Unix terminal, npm.",
-                "Understands how to use branches, git, and open pull requests.",
-                "Write unit tests that can validate functions and values.",
-                "Know fundamental SQL; SELECT, CREATE, DELETE.",
-                "Know how a Node app can fetch and update entities from a database.",
-                "How the web works; client and server communication, CRUD operations such as GET and POST requests",
-                "Know enough of a framework (eg Express) to create a functional endpoint that can handle queries, params, and a JSON response.",
-                "Concepts around JavaScript including functions, modules, installing and using node modules, variables, async, and control flow.",
-                "How to apply common CSS properties to HTML markup; for example colors, fonts, sizing, margins."
-            ]
-        }
-    },
-    "tierTwo": {
-        "teamSkills": [
-            "Communicates assumptions and asks for clarification as soon as they realize that a task or specification is unclear to them.",
-            "Independently completes well-defined tasks or features.",
-            "Knows when to reach out to teammates for help versus trying to unblock themselves.",
-            "Proactively picks up work from a backlog, in keeping with the priorities and workflow of the project.",
-            "Thoughtfully breaks down larger pieces of work into smaller subtasks or steps.",
-            "Understands how pieces of work fit into the overall project goals, and seeks to further this understanding in team discussions."
-        ],
-        "craft": {
-            "design": ["Well we're going to need something here!"],
-            "engineering": [
-                "Understands git flows like rebasing, reverting merges, resolving merge conflicts, and cherry-picking files.",
-                "Understands when and how to use non-trivial SQL queries, like joins and migrations.",
-                "Familiar with common tools and patterns built in association with a framework. For example, ORMs, middlewares, utilities.",
-                "Understands concepts like call stacks, event loops, and garbage collection.",
-                "Can create and use functional React components and JSX.",
-                "Understands how to render lists and variables and use component state and props.",
-                "Understands how data travels through the application tree.",
-                "Understands how to work with asynchronous requests and handle their responses or errors.",
-                "Knows responsive CSS and media queries.",
-                "Understands how to apply styles best suited for desktop and mobile devices."
-            ]
-        }
-    },
-    "tierThree": {
-        "teamSkills": [
-            "Understands and follows best practices with minimal guidance.",
-            "Contributes to team and project documentation when necessary or prudent.",
-            "Communicates directly with team stakeholders when appropriate, instead of relaying communication through a more senior team member.",
-            "Is comfortable with shifting client priorities and reasonable changes in project scope.",
-            "Is comfortable with and can worth through client, task, or project ambiguity.",
-            "Thoughtfully reviews both client and Formidable teammates' work - provides specific praise, actionable feedback, and asks cogent clarifying questions.",
-            "Has good attention to detail - produces polished work for final review, and clearly designates work that's in-progress."
-        ],
-        "craft": {
-            "design": ["Well we're going to need something here!"],
-            "engineering": {
-                "frontend": [
-                    "Able to maintain and incrementally add to existing CI/CD configurations.",
-                    "Understand how to get to the metal of DOM nodes using refs. Can get browser-calculated metrics of DOM nodes or attach any event listeners.",
-                    "Should be familiar with how to use state management libraries or patterns. Knows when to reach for useState, useRef, useReducer or even Redux.",
-                    "Know how the component lifecycle works using class methods or hooks. Can execute a task once per the lifecycle of the component or when a specific piece of state is changed.",
-                    "Know how to improve and maintain performance of components. Keeps expensive operations such as creating RegEx literals or mapping large data sets outside of renders. Leverages useEffect to both create and clean up subscriptions.",
-                    "Understands the use case for Portals and how to render content with states in one.",
-                    "Can use a component library within an application and integrate it within the patterns of the application at large.",
-                    "Understands how to ensure components are accessible. How aria labels are to be used for screen readers and to ensure keyboard navigation exists for all actionable components. Leverages semantic HTML so the browser knows the intention of components over everything being a div breaking accessibility.",
-                    "Knows how React Native tooling and packaging works such as Metro.",
-                    "Can build binaries for both Android and iOS and run them on respective devices or simulators.",
-                    "Able to leverage Xcode or Android Studio to instrument performance of React Native apps, find any potential memory leaks, and examine hardware metrics and usage.",
-                    "Can read and understand the basic flow of React Native Modules, how to link them, and get a general idea of the Java, Kotlin, Swift, or Objective-C code."
-                ],
-                "backendApp": [
-                    "Database: Schema design. Crafting relationships.",
-                    "Framework: Advanced features in given framework, for example microservices in NextJS, writing custom middleware.",
-                    "Performance: Evaluate implications of how solutions are coded. Time complexity, sorting algorithms.",
-                    "Observability: Given a design they could contribute to logging and APM instrumentation in application code. Can identify fundamentals of observability and how that relates to our BE application stack.",
-                    "Security: Can identify several security primitives and their purpose.",
-                    "Cloud Primitives: Understands the purpose of many cloud primitives. Lambda, EC2, CDN, load balancers, databases, queues, object storage.",
-                    "Infra Configuration Management: Proficiency in one infra as code tool.",
-                    "CI/CD: Add functionality to existing CI/CD pipeline. Troubleshooting and optimizing existing pipelines."
-                ],
-                "cloudInfra": [
-                    "Cloud Primitives: Understands the purpose of many cloud primitives. Lambda, EC2, CDN, load balancers, databases, queues, object storage.",
-                    "Infra Configuration Management: Proficiency in one infra as code tool.",
-                    "CI/CD: Add functionality to existing CI/CD pipeline. Troubleshooting and optimizing existing pipelines.",
-                    "Scripting: Proficient in bash. Proficient in at least one other scripting language like JS/Python/Go.",
-                    "Observability: Given a design they could implement in Cloudwatch or Datadog for example. They could modify, tune and add enchancement to existing solutions.",
-                    "Scalability: Understands horizontal vs vertical scaling. Can speak to some common patterns used to enhance scalability.",
-                    "Security: Can identify several security primitives and their purpose."
-                ]
-            }
-        }
-    },
-    "tierFour": {
-        "teamSkills": [
-            "Works autonomously to complete complex tasks or features.",
-            "Recognizes when a decision requires buy-in from team members or client stakeholders instead of unilateral action.",
-            "Delivers feedback (and praise!) promptly and respectfully directly to their peers to prevent larger issues.",
-            "Understands the tradeoffs between synchronous and asynchronous communication and the appropriate usage for each type.",
-            "Clearly explains opinions, options and alternatives to team members and client stakeholders, and is able to advocate for their decisions without defensiveness.",
-            "Seeks to understand what a client is really looking for when requests seem unclear, non-ideal, or unreasonable, by asking clarifying questions, investigating assumptions, and suggesting alternatives.",
-            "Understands and takes into account tradeoffs between different parts of the product (design, engineering, product, analytics, etc.) when making decisions.",
-            "Avoids bike-shedding discussions and has a bias towards pragmatic decision-making.",
-            "Aligns individuals on the team on technical, product, and/or design decisions."
-        ],
-        "craft": {
-            "design": ["Well we're going to need something here!"],
-            "engineering": {
-                "frontend": [
-                    "Know how to architect a React application including project structure, separation of data and visual components. Has a solid understanding on where Providers, state slices, styles, components, and constants should live. Ensures components are written in a way that are light on dependencies and can be re-used across the application.",
-                    "Understand how front-end build tools work such as Webpack or Rollup. How to create a configuration to create both a developer and optimized production output. Can include loaders for assets such as SVGs, images, external fonts, or even TypeScript. Knows how to provide any necessary polyfills using the build system to ensure wide-reaching browser compatibility.",
-                    "Knows how Babel works, what it's used for, and how to leverage additional plugins or options within an application. Can speak to when to use Babel proposals and the trade-offs of including a proposal. Can integrate Babel with tooling like ESLint to ensure proper code standards are maintained.",
-                    "Make decisions on the best location to put application state, if it's transient, if it belongs in a local component, or if it goes in a full state management library. Able to speak to the access implications and performance trade-offs of each.",
-                    "Knows how to lazy load modules using import() and leverage Webpack chunks and components using React Suspense.",
-                    "Experience with GraphQL client libraries such as Urql or Apollo. Knows how to place and structure Mutations and Queries cleanly within the application tree.",
-                    "Can write React Native modules and interact with device and OS-level APIs to leverage additional capabilities not offered by React Native out-of-the-box.",
-                    "Is able to author a component library and keep responsive design, themes, and accessibility as a key design goal. Can leverage a system like Storybook to quickly iterate and present all available components and theming options."
-                ],
-                "backendApp": [
-                    "Database: Troubleshooting query issues. Optimizations. Analyze impacts of different schema designs as far as scalability and performance. Concept like sharding. Replication.",
-                    "Framework: Can establish framework usage patterns that enhance code scalability and developer ergonomics/maintainability. Know when it might be time to switch components of a framework as client needs or scale changes.",
-                    "Performance: Can make designs for I/O and orchestration between external services. For debugging can identity root cause of performance issues and may recommend solutions.",
-                    "Observability: Knows what metrics are important to capture and why. Knows different ways that can capture metrics. Once a set of tools are identified can implement instrumentation and configure metrics and alarms.",
-                    "Security: Able to follow best practices for security and has strong understanding of purpose of security primitives and when to use them. Would be able to be point person for implementing security best practices that a security team has recommended. Could identify gaps in security where important best practices are not being followed.",
-                    "Cloud Primitives: Understands cloud primitives that could serve a similar purpose and able to identity what would lead to choosing one over another. Understands limitations of cloud primitives.",
-                    "Configuration Management: Expertise in one infra as code tool.",
-                    "CI/CD: Can build a CI/CD pipeline within existing system. Can be tasked with implementation after a provider/design is decided on."
-                ],
-                "cloudInfra": [
-                    "Cloud Primitives: Understands cloud primitives that could serve a similar purpose and able to identity what would lead to choosing one over another. Understands limitations of cloud primitives.",
-                    "Configuration Management: Expertise in one infra as code tool.",
-                    "CI/CD: Can build a CI/CD pipeline within existing system. Can be tasked with implementation after a provider/design is decided on.",
-                    "Scripting: Proficient in JS required for engineers at some point b/c they work at Formidable. At this point we expect expert level in at least one language relevant to our business (Python/Bash/Go).",
-                    "Observability: Knows what metrics are important to capture and why. Knows different ways that can capture metrics. Once a set of tools are identified can implement instrumentation and configure metrics and alarms.",
-                    "Scalability: Can analyze current systems to identify bottlenecks for scalability. Know which components are critical for scaling so design work can be focused there.",
-                    "Security: Able to follow best practices for security and has strong understanding of purpose of security primitives and when to use them. Would be able to be point person a implementing security best practices that a security team has recommended. Could identify gaps in security where important best practices are not being followed."
-                ]
-            }
-        }
-    },
-    "tierFive": {
-        "teamSkills": [
-            "Knows when to escalate issues (to Formidable leadership, client stakeholders, etc.) and when to work towards a solution on their own or with teammates.",
-            "Delegates smaller tasks to new or less experienced team members and mentors them through implementation.",
-            "Scopes out large pieces of work, breaks it down into sensible tasks for themselves or their teammates, and estimates time required to complete.",
-            "Has a deep understanding of best practices and can guide teammates on specifics and reasoning when necessary.",
-            "Balances client needs, priorities and deadlines with a quality work product - understands what tradeoffs are necessary and when.",
-            "Quickly builds trust with client stakeholders.",
-            "Actively solicits feedback from others.",
-            "Conducts written communication with an awareness of how the nuances of intended versus perceived tone, indicated urgency, etc. can sometimes be lost in a written format.",
-            "Publicly presents and explains their work to their team or a broader audience on a semi-regular basis."
-        ],
-        "craft": {
-            "design": ["Well we're going to need something here!"],
-            "engineering": {
-                "frontend": [
-                    "Know how to scale a front-end application to meet performance demands. Understands what patterns can lead to bottlenecks when the client ramps up to larger data sets and volume.",
-                    "Can speak to the architectural trade-offs, abilities, and performance differences between a Single-Page Application or Server Side Rendered Application.",
-                    "Has deep experience with leveraging CDNs to ensure assets are delivered to client front-end apps. Can ensure caching strategy doesn't deliver stale content but maintains high performance.",
-                    "Knows how to hydrate a React app or component with state from the server. Can combine server and client side routes using something like Express + React Router or a more complete solution such as Next.JS.",
-                    "Is familiar with implementing payment processors within a front-end application such as Stripe, Square, or Venmo for Business. Can speak to any security implications of using an integrated payment processor.",
-                    "Is able to augment an existing front-end application that has established architectural patterns with new technologies such as React. Can map out a plan to transition the application without being disruptive or adding a huge performance hit.",
-                    "Can implement a caching strategy for applications that leverage static content and GraphQL. Cuts down on requests by implementing or using a normalized data structure such as Graphcache. Is able to tell the library how to update its data when using subscriptions and mutations.",
-                    "Able to use browser 2D and 3D graphics APIs such as Canvas or WebGL. Knows how to use Canvas context to draw shapes, arcs, and paths. Has an understanding of WebGL shaders, context, and textures and color masking."
-                ],
-                "backendApp": [
-                    "Database: Understand databases at a fundamental level to the point they can evaluate new database options and understand its unique characteristics. For example concurrency model, scale implications, key/index design, schema design.",
-                    "Framework: Can place frameworks in the landscape of existing frameworks. Based on their deep knowledge of the existing popular frameworks. For example a client want help evaluating a framework and suggests to include something new you aren't familiar with. That's not a problem, you can read the docs, do a POC and then speak to how it may perform/behave compared to more well known frameworks. Expert in more than one framework.",
-                    "Performance: Landscapes of where NodeJS will run and how that interacts with the usage patterns and frameworks being chosen.",
-                    "Observability: Understanding the current landscape of offerings and best practices. Can evaluate a clients needs and identify pros and cons of different potential solution. Can evaluate solutions they haven't used before because of their expertise in this area.",
-                    "Security: Full understanding of SSL, TLS, OAUTH, CORES, XSS. Should be able to lead a security audit (ideally in tandem with a client team).",
-                    "Cloud Primitives: Understanding the current landscape of cloud primitives. Can evaluate a client's needs and identify pros and cons of different potential solution. Can evaluate primitives they haven't used before because of their expertise in several competing primitives they can place new technology in the landscape.",
-                    "Configuration Management: Expertise in several infra as code/configuration management tools. Understand the gotchas/pros/cons and industry best practices.",
-                    "CI/CD: Understand landscape of CI/CD solutions and offerings. Can perform an evaluation of a best fit for client needs."
-                ],
-                "cloudInfra": [
-                    "Cloud Primitives: Understanding the current landscape of cloud primitives. Can evaluate a client's needs and identify pros and cons of different potential solution. Can evaluate primitives they haven't used before because of their expertise in several competing primitives they can place new technology in the landscape.",
-                    "Configuration Management: Expertise in several infra as code/configuration management tools. Understand the gotchas/pros/cons and industry best practices.",
-                    "CI/CD: Understand landscape of CI/CD solutions and offerings. Can perform an evaluation of a best fit for client needs.",
-                    "Scripting: Expertise in Bash and two other scripting languages ideally Javascript and one of (Go,Python).",
-                    "Observability: Understanding the current landscape of offerings and best practices. Can evaluate a clients needs and identify pros and cons of different potential solution. Can evaluate solutions they haven't used before because of their expertise in this area.",
-                    "Scalability: Can anticipate bottlenecks to scalability based on past experience. Has multiple solutions at-hand for a given scalability issue. Aware of tradeoffs of different solution.",
-                    "Security: Full understanding of IAM, least privilege, WAF, Security Groups, Network Layer Security. Should be able to lead a security audit (ideally in tandem with a client team)."
-                ]
-            }
-        }
+  "tierOne": {
+    "teamSkills": [
+      "Completes well-defined tasks with guidance.",
+      "Proactively asks for work when they've completed assigned tasks, or identifies and confirms what their next task should be.",
+      "Proactively asks teammates for help or guidance when they're blocked on a task or something isn't clear.",
+      "Communicates respectfully with, and receives feedback gracefully from, client stakeholders, team members, and Formidable coworkers of all disciplines.",
+      "Provides regular status updates on their work and availability."
+    ],
+    "craft": {
+      "design": ["Well we're going to need something here!"],
+      "engineering": [
+        "Knows how to use a Code Editor and Linux or Unix terminal, npm.",
+        "Understands how to use branches, git, and open pull requests.",
+        "Write unit tests that can validate functions and values.",
+        "Know fundamental SQL; SELECT, CREATE, DELETE.",
+        "Know how a Node app can fetch and update entities from a database.",
+        "How the web works; client and server communication, CRUD operations such as GET and POST requests",
+        "Know enough of a framework (eg Express) to create a functional endpoint that can handle queries, params, and a JSON response.",
+        "Concepts around JavaScript including functions, modules, installing and using node modules, variables, async, and control flow.",
+        "How to apply common CSS properties to HTML markup; for example colors, fonts, sizing, margins."
+      ]
     }
+  },
+  "tierTwo": {
+    "teamSkills": [
+      "Communicates assumptions and asks for clarification as soon as they realize that a task or specification is unclear to them.",
+      "Independently completes well-defined tasks or features.",
+      "Knows when to reach out to teammates for help versus trying to unblock themselves.",
+      "Proactively picks up work from a backlog, in keeping with the priorities and workflow of the project.",
+      "Thoughtfully breaks down larger pieces of work into smaller subtasks or steps.",
+      "Understands how pieces of work fit into the overall project goals, and seeks to further this understanding in team discussions."
+    ],
+    "craft": {
+      "design": ["Well we're going to need something here!"],
+      "engineering": [
+        "Understands git flows like rebasing, reverting merges, resolving merge conflicts, and cherry-picking files.",
+        "Understands when and how to use non-trivial SQL queries, like joins and migrations.",
+        "Familiar with common tools and patterns built in association with a framework. For example, ORMs, middlewares, utilities.",
+        "Understands concepts like call stacks, event loops, and garbage collection.",
+        "Can create and use functional React components and JSX.",
+        "Understands how to render lists and variables and use component state and props.",
+        "Understands how data travels through the application tree.",
+        "Understands how to work with asynchronous requests and handle their responses or errors.",
+        "Knows responsive CSS and media queries.",
+        "Understands how to apply styles best suited for desktop and mobile devices."
+      ]
+    }
+  },
+  "tierThree": {
+    "teamSkills": [
+      "Understands and follows best practices with minimal guidance.",
+      "Contributes to team and project documentation when necessary or prudent.",
+      "Communicates directly with team stakeholders when appropriate, instead of relaying communication through a more senior team member.",
+      "Is comfortable with shifting client priorities and reasonable changes in project scope.",
+      "Is comfortable with and can worth through client, task, or project ambiguity.",
+      "Thoughtfully reviews both client and Formidable teammates' work - provides specific praise, actionable feedback, and asks cogent clarifying questions.",
+      "Has good attention to detail - produces polished work for final review, and clearly designates work that's in-progress."
+    ],
+    "craft": {
+      "design": ["Well we're going to need something here!"],
+      "engineering": {
+        "frontend": [
+          "Able to maintain and incrementally add to existing CI/CD configurations.",
+          "Understand how to get to the metal of DOM nodes using refs. Can get browser-calculated metrics of DOM nodes or attach any event listeners.",
+          "Should be familiar with how to use state management libraries or patterns. Knows when to reach for useState, useRef, useReducer or even Redux.",
+          "Know how the component lifecycle works using class methods or hooks. Can execute a task once per the lifecycle of the component or when a specific piece of state is changed.",
+          "Know how to improve and maintain performance of components. Keeps expensive operations such as creating RegEx literals or mapping large data sets outside of renders. Leverages useEffect to both create and clean up subscriptions.",
+          "Understands the use case for Portals and how to render content with states in one.",
+          "Can use a component library within an application and integrate it within the patterns of the application at large.",
+          "Understands how to ensure components are accessible. How aria labels are to be used for screen readers and to ensure keyboard navigation exists for all actionable components. Leverages semantic HTML so the browser knows the intention of components over everything being a div breaking accessibility.",
+          "Knows how React Native tooling and packaging works such as Metro.",
+          "Can build binaries for both Android and iOS and run them on respective devices or simulators.",
+          "Able to leverage Xcode or Android Studio to instrument performance of React Native apps, find any potential memory leaks, and examine hardware metrics and usage.",
+          "Can read and understand the basic flow of React Native Modules, how to link them, and get a general idea of the Java, Kotlin, Swift, or Objective-C code."
+        ],
+        "backendApp": [
+          "Database: Schema design. Crafting relationships.",
+          "Framework: Advanced features in given framework, for example microservices in NextJS, writing custom middleware.",
+          "Performance: Evaluate implications of how solutions are coded. Time complexity, sorting algorithms.",
+          "Observability: Given a design they could contribute to logging and APM instrumentation in application code. Can identify fundamentals of observability and how that relates to our BE application stack.",
+          "Security: Can identify several security primitives and their purpose.",
+          "Cloud Primitives: Understands the purpose of many cloud primitives. Lambda, EC2, CDN, load balancers, databases, queues, object storage.",
+          "Infra Configuration Management: Proficiency in one infra as code tool.",
+          "CI/CD: Add functionality to existing CI/CD pipeline. Troubleshooting and optimizing existing pipelines."
+        ],
+        "cloudInfra": [
+          "Cloud Primitives: Understands the purpose of many cloud primitives. Lambda, EC2, CDN, load balancers, databases, queues, object storage.",
+          "Infra Configuration Management: Proficiency in one infra as code tool.",
+          "CI/CD: Add functionality to existing CI/CD pipeline. Troubleshooting and optimizing existing pipelines.",
+          "Scripting: Proficient in bash. Proficient in at least one other scripting language like JS/Python/Go.",
+          "Observability: Given a design they could implement in Cloudwatch or Datadog for example. They could modify, tune and add enchancement to existing solutions.",
+          "Scalability: Understands horizontal vs vertical scaling. Can speak to some common patterns used to enhance scalability.",
+          "Security: Can identify several security primitives and their purpose."
+        ]
+      }
+    }
+  },
+  "tierFour": {
+    "teamSkills": [
+      "Works autonomously to complete complex tasks or features.",
+      "Recognizes when a decision requires buy-in from team members or client stakeholders instead of unilateral action.",
+      "Delivers feedback (and praise!) promptly and respectfully directly to their peers to prevent larger issues.",
+      "Understands the tradeoffs between synchronous and asynchronous communication and the appropriate usage for each type.",
+      "Clearly explains opinions, options and alternatives to team members and client stakeholders, and is able to advocate for their decisions without defensiveness.",
+      "Seeks to understand what a client is really looking for when requests seem unclear, non-ideal, or unreasonable, by asking clarifying questions, investigating assumptions, and suggesting alternatives.",
+      "Understands and takes into account tradeoffs between different parts of the product (design, engineering, product, analytics, etc.) when making decisions.",
+      "Avoids bike-shedding discussions and has a bias towards pragmatic decision-making.",
+      "Aligns individuals on the team on technical, product, and/or design decisions."
+    ],
+    "craft": {
+      "design": ["Well we're going to need something here!"],
+      "engineering": {
+        "frontend": [
+          "Know how to architect a React application including project structure, separation of data and visual components. Has a solid understanding on where Providers, state slices, styles, components, and constants should live. Ensures components are written in a way that are light on dependencies and can be re-used across the application.",
+          "Understand how front-end build tools work such as Webpack or Rollup. How to create a configuration to create both a developer and optimized production output. Can include loaders for assets such as SVGs, images, external fonts, or even TypeScript. Knows how to provide any necessary polyfills using the build system to ensure wide-reaching browser compatibility.",
+          "Knows how Babel works, what it's used for, and how to leverage additional plugins or options within an application. Can speak to when to use Babel proposals and the trade-offs of including a proposal. Can integrate Babel with tooling like ESLint to ensure proper code standards are maintained.",
+          "Make decisions on the best location to put application state, if it's transient, if it belongs in a local component, or if it goes in a full state management library. Able to speak to the access implications and performance trade-offs of each.",
+          "Knows how to lazy load modules using import() and leverage Webpack chunks and components using React Suspense.",
+          "Experience with GraphQL client libraries such as Urql or Apollo. Knows how to place and structure Mutations and Queries cleanly within the application tree.",
+          "Can write React Native modules and interact with device and OS-level APIs to leverage additional capabilities not offered by React Native out-of-the-box.",
+          "Is able to author a component library and keep responsive design, themes, and accessibility as a key design goal. Can leverage a system like Storybook to quickly iterate and present all available components and theming options."
+        ],
+        "backendApp": [
+          "Database: Troubleshooting query issues. Optimizations. Analyze impacts of different schema designs as far as scalability and performance. Concept like sharding. Replication.",
+          "Framework: Can establish framework usage patterns that enhance code scalability and developer ergonomics/maintainability. Know when it might be time to switch components of a framework as client needs or scale changes.",
+          "Performance: Can make designs for I/O and orchestration between external services. For debugging can identity root cause of performance issues and may recommend solutions.",
+          "Observability: Knows what metrics are important to capture and why. Knows different ways that can capture metrics. Once a set of tools are identified can implement instrumentation and configure metrics and alarms.",
+          "Security: Able to follow best practices for security and has strong understanding of purpose of security primitives and when to use them. Would be able to be point person for implementing security best practices that a security team has recommended. Could identify gaps in security where important best practices are not being followed.",
+          "Cloud Primitives: Understands cloud primitives that could serve a similar purpose and able to identity what would lead to choosing one over another. Understands limitations of cloud primitives.",
+          "Configuration Management: Expertise in one infra as code tool.",
+          "CI/CD: Can build a CI/CD pipeline within existing system. Can be tasked with implementation after a provider/design is decided on."
+        ],
+        "cloudInfra": [
+          "Cloud Primitives: Understands cloud primitives that could serve a similar purpose and able to identity what would lead to choosing one over another. Understands limitations of cloud primitives.",
+          "Configuration Management: Expertise in one infra as code tool.",
+          "CI/CD: Can build a CI/CD pipeline within existing system. Can be tasked with implementation after a provider/design is decided on.",
+          "Scripting: Proficient in JS required for engineers at some point b/c they work at Formidable. At this point we expect expert level in at least one language relevant to our business (Python/Bash/Go).",
+          "Observability: Knows what metrics are important to capture and why. Knows different ways that can capture metrics. Once a set of tools are identified can implement instrumentation and configure metrics and alarms.",
+          "Scalability: Can analyze current systems to identify bottlenecks for scalability. Know which components are critical for scaling so design work can be focused there.",
+          "Security: Able to follow best practices for security and has strong understanding of purpose of security primitives and when to use them. Would be able to be point person a implementing security best practices that a security team has recommended. Could identify gaps in security where important best practices are not being followed."
+        ]
+      }
+    }
+  },
+  "tierFive": {
+    "teamSkills": [
+      "Knows when to escalate issues (to Formidable leadership, client stakeholders, etc.) and when to work towards a solution on their own or with teammates.",
+      "Delegates smaller tasks to new or less experienced team members and mentors them through implementation.",
+      "Scopes out large pieces of work, breaks it down into sensible tasks for themselves or their teammates, and estimates time required to complete.",
+      "Has a deep understanding of best practices and can guide teammates on specifics and reasoning when necessary.",
+      "Balances client needs, priorities and deadlines with a quality work product - understands what tradeoffs are necessary and when.",
+      "Quickly builds trust with client stakeholders.",
+      "Actively solicits feedback from others.",
+      "Conducts written communication with an awareness of how the nuances of intended versus perceived tone, indicated urgency, etc. can sometimes be lost in a written format.",
+      "Publicly presents and explains their work to their team or a broader audience on a semi-regular basis."
+    ],
+    "craft": {
+      "design": ["Well we're going to need something here!"],
+      "engineering": {
+        "frontend": [
+          "Know how to scale a front-end application to meet performance demands. Understands what patterns can lead to bottlenecks when the client ramps up to larger data sets and volume.",
+          "Can speak to the architectural trade-offs, abilities, and performance differences between a Single-Page Application or Server Side Rendered Application.",
+          "Has deep experience with leveraging CDNs to ensure assets are delivered to client front-end apps. Can ensure caching strategy doesn't deliver stale content but maintains high performance.",
+          "Knows how to hydrate a React app or component with state from the server. Can combine server and client side routes using something like Express + React Router or a more complete solution such as Next.JS.",
+          "Is familiar with implementing payment processors within a front-end application such as Stripe, Square, or Venmo for Business. Can speak to any security implications of using an integrated payment processor.",
+          "Is able to augment an existing front-end application that has established architectural patterns with new technologies such as React. Can map out a plan to transition the application without being disruptive or adding a huge performance hit.",
+          "Can implement a caching strategy for applications that leverage static content and GraphQL. Cuts down on requests by implementing or using a normalized data structure such as Graphcache. Is able to tell the library how to update its data when using subscriptions and mutations.",
+          "Able to use browser 2D and 3D graphics APIs such as Canvas or WebGL. Knows how to use Canvas context to draw shapes, arcs, and paths. Has an understanding of WebGL shaders, context, and textures and color masking."
+        ],
+        "backendApp": [
+          "Database: Understand databases at a fundamental level to the point they can evaluate new database options and understand its unique characteristics. For example concurrency model, scale implications, key/index design, schema design.",
+          "Framework: Can place frameworks in the landscape of existing frameworks. Based on their deep knowledge of the existing popular frameworks. For example a client want help evaluating a framework and suggests to include something new you aren't familiar with. That's not a problem, you can read the docs, do a POC and then speak to how it may perform/behave compared to more well known frameworks. Expert in more than one framework.",
+          "Performance: Landscapes of where NodeJS will run and how that interacts with the usage patterns and frameworks being chosen.",
+          "Observability: Understanding the current landscape of offerings and best practices. Can evaluate a clients needs and identify pros and cons of different potential solution. Can evaluate solutions they haven't used before because of their expertise in this area.",
+          "Security: Full understanding of SSL, TLS, OAUTH, CORES, XSS. Should be able to lead a security audit (ideally in tandem with a client team).",
+          "Cloud Primitives: Understanding the current landscape of cloud primitives. Can evaluate a client's needs and identify pros and cons of different potential solution. Can evaluate primitives they haven't used before because of their expertise in several competing primitives they can place new technology in the landscape.",
+          "Configuration Management: Expertise in several infra as code/configuration management tools. Understand the gotchas/pros/cons and industry best practices.",
+          "CI/CD: Understand landscape of CI/CD solutions and offerings. Can perform an evaluation of a best fit for client needs."
+        ],
+        "cloudInfra": [
+          "Cloud Primitives: Understanding the current landscape of cloud primitives. Can evaluate a client's needs and identify pros and cons of different potential solution. Can evaluate primitives they haven't used before because of their expertise in several competing primitives they can place new technology in the landscape.",
+          "Configuration Management: Expertise in several infra as code/configuration management tools. Understand the gotchas/pros/cons and industry best practices.",
+          "CI/CD: Understand landscape of CI/CD solutions and offerings. Can perform an evaluation of a best fit for client needs.",
+          "Scripting: Expertise in Bash and two other scripting languages ideally Javascript and one of (Go,Python).",
+          "Observability: Understanding the current landscape of offerings and best practices. Can evaluate a clients needs and identify pros and cons of different potential solution. Can evaluate solutions they haven't used before because of their expertise in this area.",
+          "Scalability: Can anticipate bottlenecks to scalability based on past experience. Has multiple solutions at-hand for a given scalability issue. Aware of tradeoffs of different solution.",
+          "Security: Full understanding of IAM, least privilege, WAF, Security Groups, Network Layer Security. Should be able to lead a security audit (ideally in tandem with a client team)."
+        ]
+      }
+    }
+  }
 }
