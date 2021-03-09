@@ -2,7 +2,7 @@
   "name": "leveling-calculator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://stack.formidable.com/career-path-calculator/",
+  "homepage": "https://formidablelabs.github.io/career-path-calculator",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
