@@ -1,10 +1,12 @@
 import React, { useState, useContext } from 'react';
-import { useLocation, useRoute } from 'wouter';
+import { useLocation, useRoute, useRouter } from 'wouter';
 import AppContext from '../context';
 
 const WelcomePage = () => {
-  const [match] = useRoute('~/');
-  const [, setLocation] = useLocation();
+  // eslint-disable-next-line
+  const router = useRouter();
+  const [match] = useRoute('/');
+  const [location, setLocation] = useLocation();
   console.log(location);
   const {
     actions: { setSelectedSpecialty },
@@ -12,12 +14,14 @@ const WelcomePage = () => {
   const [specialty, setSpecialty] = useState('');
   const [subSpecialty, setSubSpecialty] = useState('');
 
+  console.log(router);
+
   const handleSubmit = async () => {
     await setSelectedSpecialty({
       specialty,
       subSpecialty,
     });
-    setLocation('~/stage-one');
+    setLocation('/stage-one');
   };
 
   return (
