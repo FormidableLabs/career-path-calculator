@@ -1,11 +1,18 @@
 import React from 'react';
-// import data from './criteria-data.json';
+import { AppContextProvider } from './context';
+import Stage from './components/Stage';
+import WelcomePage from './components/WelcomePage';
+import StatusBar from './components/StatusBar';
 
 function App() {
   return (
-    <div>
-      <button>Start Assessment</button>
-    </div>
+    <AppContextProvider>
+      <div>
+        <StatusBar />
+        <WelcomePage />
+        <Stage />
+      </div>
+    </AppContextProvider>
   );
 }
 
