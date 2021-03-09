@@ -3,8 +3,9 @@ import { useLocation, useRoute } from 'wouter';
 import AppContext from '../context';
 
 const WelcomePage = () => {
-  const [match] = useRoute('/');
+  const [match] = useRoute('~/');
   const [, setLocation] = useLocation();
+  console.log(location);
   const {
     actions: { setSelectedSpecialty },
   } = useContext(AppContext);
@@ -16,7 +17,7 @@ const WelcomePage = () => {
       specialty,
       subSpecialty,
     });
-    setLocation('/stage-one');
+    setLocation('~/stage-one');
   };
 
   return (
