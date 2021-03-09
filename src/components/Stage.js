@@ -5,7 +5,7 @@ import data from '../criteria-data.json';
 import SkillsForm from './SkillsForm';
 
 const Stage = () => {
-  const [match, params] = useRoute('~/stage-:id');
+  const [match, params] = useRoute('/stage-:id');
 
   const currentTier = match && tierArray.indexOf(params.id);
   const tierData = match && data[`tier${capitalize(params.id)}`];

@@ -40,7 +40,7 @@ const SkillsForm = (props) => {
   const handleFormSubmit = async () => {
     await submitNewSkills(skills, currentTier);
     setSkills({ craft: [], team: [] });
-    setLocation(`~/stage-${tierArray[currentTier + 1]}`);
+    setLocation(`/stage-${tierArray[currentTier + 1]}`);
   };
 
   return (
