@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "stack.formidable.com/career-path-calculator/static/css/main.6dea0f05.chunk.css",
-    "main.js": "stack.formidable.com/career-path-calculator/static/js/main.fb48d276.chunk.js",
-    "main.js.map": "stack.formidable.com/career-path-calculator/static/js/main.fb48d276.chunk.js.map",
+    "main.js": "stack.formidable.com/career-path-calculator/static/js/main.a476aae5.chunk.js",
+    "main.js.map": "stack.formidable.com/career-path-calculator/static/js/main.a476aae5.chunk.js.map",
     "runtime-main.js": "stack.formidable.com/career-path-calculator/static/js/runtime-main.4630fc2c.js",
     "runtime-main.js.map": "stack.formidable.com/career-path-calculator/static/js/runtime-main.4630fc2c.js.map",
-    "static/js/2.8db3ff48.chunk.js": "stack.formidable.com/career-path-calculator/static/js/2.8db3ff48.chunk.js",
-    "static/js/2.8db3ff48.chunk.js.map": "stack.formidable.com/career-path-calculator/static/js/2.8db3ff48.chunk.js.map",
+    "static/js/2.27ff17aa.chunk.js": "stack.formidable.com/career-path-calculator/static/js/2.27ff17aa.chunk.js",
+    "static/js/2.27ff17aa.chunk.js.map": "stack.formidable.com/career-path-calculator/static/js/2.27ff17aa.chunk.js.map",
     "index.html": "stack.formidable.com/career-path-calculator/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "stack.formidable.com/career-path-calculator/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.8db3ff48.chunk.js.LICENSE.txt": "stack.formidable.com/career-path-calculator/static/js/2.8db3ff48.chunk.js.LICENSE.txt"
+    "static/js/2.27ff17aa.chunk.js.LICENSE.txt": "stack.formidable.com/career-path-calculator/static/js/2.27ff17aa.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4630fc2c.js",
-    "static/js/2.8db3ff48.chunk.js",
+    "static/js/2.27ff17aa.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.fb48d276.chunk.js"
+    "static/js/main.a476aae5.chunk.js"
   ]
 }
