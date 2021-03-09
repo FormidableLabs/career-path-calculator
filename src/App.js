@@ -7,6 +7,7 @@ import StatusBar from './components/StatusBar';
 
 function App() {
   return (
+    // eslint-disable-next-line
     <Router base={`${process.env.PUBLIC_URL}/`}>
       <AppContextProvider>
         <div>
