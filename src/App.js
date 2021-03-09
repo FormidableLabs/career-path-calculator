@@ -7,7 +7,7 @@ import StatusBar from './components/StatusBar';
 
 function App() {
   return (
-    <Router base="/career-path-calculator">
+    <Router base={`${process.env.PUBLIC_URL}/`}>
       <AppContextProvider>
         <div>
           <StatusBar />
