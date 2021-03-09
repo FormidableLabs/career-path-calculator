@@ -5,6 +5,7 @@ import AppContext from '../context';
 const WelcomePage = () => {
   // eslint-disable-next-line
   const router = useRouter();
+  // eslint-disable-next-line no-undef
   const [match] = useRoute('/');
   const [location, setLocation] = useLocation();
   console.log(location);
