@@ -3,11 +3,7 @@ import AppContext from '../context';
 
 const StatusBar = () => {
   const { currentScore } = useContext(AppContext);
-  return (
-    <div>
-      Current Score: {currentScore}
-    </div>
-  );
+  return <div>Current Score: {currentScore}</div>;
 };
 
 export default StatusBar;

@@ -8,7 +8,7 @@ export const AppContextProvider = ({ children }) => {
   const [currentScore, setCurrentScore] = useState(0);
   const [selectedSpecialty, setSelectedSpecialty] = useState({
     specialty: '',
-    subSpecialty: ''
+    subSpecialty: '',
   });
 
   const [selectedSkills, setSelectedSkills] = useState({
@@ -32,34 +32,38 @@ export const AppContextProvider = ({ children }) => {
     const newSkillsState = {
       team: {
         ...selectedSkills.team,
-        [`tier${capitalize(tierArray[tier])}`]: [ ...skillsObject.team ]
+        [`tier${capitalize(tierArray[tier])}`]: [...skillsObject.team],
       },
       craft: {
         ...selectedSkills.craft,
-        [`tier${capitalize(tierArray[tier])}`]: [ ...skillsObject.craft ],
-      }
+        [`tier${capitalize(tierArray[tier])}`]: [...skillsObject.craft],
+      },
     };
 
     setSelectedSkills(newSkillsState);
-    setCurrentScore(currentScore + ((skillsObject.team.concat(skillsObject.craft).length) * (tier + 1)));
+    setCurrentScore(
+      currentScore +
+        skillsObject.team.concat(skillsObject.craft).length * (tier + 1)
+    );
   };
 
-  const providerValue = useMemo(() => ({
-    currentScore,
-    selectedSkills,
-    selectedSpecialty,
-    actions: {
+  const providerValue = useMemo(
+    () => ({
+      currentScore,
+      selectedSkills,
+      selectedSpecialty,
+      actions: {
+        submitNewSkills,
+        setSelectedSpecialty,
+      },
+    }),
+    [
+      currentScore,
+      selectedSkills,
+      selectedSpecialty,
       submitNewSkills,
-      setSelectedSpecialty
-    }
-  }),
-  [
-    currentScore,
-    selectedSkills,
-    selectedSpecialty,
-    submitNewSkills,
-    setSelectedSpecialty
-  ]
+      setSelectedSpecialty,
+    ]
   );
 
   return <Context.Provider value={providerValue}>{children}</Context.Provider>;
